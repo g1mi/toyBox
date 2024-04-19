@@ -11,6 +11,8 @@ node_modules/
 .eslintcache
 unpackage/dist/build/
 unpackage/dist/dev/
+.hbuilderx/
 
 # python
 *.pyc
+manifest.json
