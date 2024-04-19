@@ -4,18 +4,8 @@
 			<text class="u-page__item__title">ESP32</text>
 			<u-gap height="15"></u-gap>
 			<u-cell-group>
-				<u-cell title="WiFi&UDP" value="UDP协议控制WiFi" :isLink="true"></u-cell>
+				<u-cell title="WiFi&UDP" value="UDP协议控制元器件" :isLink="true" url="/pages/tools/esp32_wifi_udp/esp32_wifi_udp"></u-cell>
 			</u-cell-group>
-		</view>
-
-		<view class="u-page__item">
-			<u-gap height="150"></u-gap>
-			<u-tabbar :value="value6" @change="name => value6 = name" :fixed="true" :placeholder="true"
-				:safeAreaInsetBottom="true" activeColor="#FF7E00">
-				<u-tabbar-item text="列表" icon="order"></u-tabbar-item>
-				<u-tabbar-item text="需求" icon="plus"></u-tabbar-item>
-				<u-tabbar-item text="Bla-bla" icon="chat"></u-tabbar-item>
-			</u-tabbar>
 		</view>
 	</view>
 </template>
@@ -24,30 +14,12 @@
 	export default {
 		data() {
 			return {
-				value1: 0,
-				value2: 1,
-				value3: 'play-right',
-				value4: 0,
-				value5: 0,
-				value6: 0,
-				value7: 3
 			}
 		},
 		onLoad() {
 
 		},
 		methods: {
-			change5(name) {
-				if (name === 1) return uni.$u.toast('请您先登录')
-				else this.value5 = name
-			},
-			change1(e) {
-				this.value1 = e
-				console.log('change1', e);
-			},
-			click1(e) {
-				console.log('click1', e);
-			}
 		},
 	}
 </script>
