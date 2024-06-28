@@ -35,31 +35,15 @@
 				"navigationBarTitleText" : "信息",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/tools/otto/otto",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
-	"tabBar": {
-		"selectedColor": "#FF7E00",
-	  "list": [
-	    {
-	      "pagePath": "pages/index/index",
-	      "text": "列表",
-		  "iconPath": "static/index.png",
-		  "selectedIconPath": "static/index-selected.png"
-	    },
-	    {
-	      "pagePath": "pages/request/request",
-	      "text": "需求",
-		  "iconPath": "static/request.png",
-		  "selectedIconPath": "static/request-selected.png"
-	    },
-	    {
-	      "pagePath": "pages/info/info",
-	      "text": "Bla-bla",
-		  "iconPath": "static/user.png",
-		  "selectedIconPath": "static/user-selected.png"
-	    }
-	  ]
-	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "toyBox",

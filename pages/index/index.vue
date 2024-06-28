@@ -3,10 +3,10 @@
 		<view class="uv-page__item">
 			<text class="uv-page__item__title">ESP32应用</text>
 			<uv-cell-group>
-				<uv-cell icon="" title="WIFI&UDP" value="UDP协议控制元器件" :isLink="true"
+				<uv-cell title="OTTO" value="蓝牙控制OTTO" :isLink="true" url="/pages/tools/otto/otto"></uv-cell>
+				<!-- <uv-cell icon="" title="WIFI&UDP" value="UDP协议控制元器件" :isLink="true"
 					url="/pages/tools/esp32_wifi_udp/esp32_wifi_udp">
-				</uv-cell>
-				<uv-cell title="BlueTooth" value="蓝牙控制元器件" :isLink="true"></uv-cell>
+				</uv-cell> -->
 			</uv-cell-group>
 		</view>
 	</view>
